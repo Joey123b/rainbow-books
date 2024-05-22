@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainbow Books</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #8B4513;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #A0522D;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .main-content, .sidebar {
+            padding: 1em;
+            margin: 1em 0;
+        }
+        .main-content {
+            background-color: white;
+            padding: 2em;
+        }
+        footer {
+            background-color: #8B4513;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .sidebar {
+            background-color: #eaeaea;
+            padding: 2em;
+        }
+        .sidebar h3 {
+            color: #A0522D;
+        }
+        h1, h2, h3 {
+            color: #8B4513;
+        }
+        @media (min-width: 768px) {
+            .flex {
+                display: flex;
+                justify-content: space-between;
+            }
+            .main-content {
+                width: 70%;
+            }
+            .sidebar {
+                width: 25%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Rainbow Books</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#shop">Shop</a>
+    <a href="#events">Events</a>
+    <a href="#community">Community</a>
+    <a href="#blog">Blog</a>
+    <a href="#customer-service">Customer Service</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<div class="container">
+    <section id="home" class="main-content">
+        <h2>Welcome to Rainbow Books</h2>
+        <p>Rainbow Books is a well-established book retailer located in Victoria, Australia. Known for its wide selection of literature, Rainbow Books caters to a diverse customer base, offering genres ranging from fiction and non-fiction to specialized academic texts and children's books.</p>
+        <h3>Current Promotions and Featured Books</h3>
+        <p>Check out our latest promotions and featured books! Don't miss out on great deals and must-read titles.</p>
+        <h3>Upcoming Events and Announcements</h3>
+        <p>Stay updated with our upcoming events and announcements. Join us for book signings, reading sessions, and literary workshops.</p>
+    </section>
+
+    <div class="flex">
+        <section id="about" class="main-content">
+            <h2>About Us</h2>
+            <p><strong>History and Mission:</strong> Rainbow Books was founded by a passionate team dedicated to promoting reading and literacy. We focus on providing exceptional customer service and a personalized shopping experience.</p>
+            <p><strong>Our Team:</strong> Our knowledgeable staff are always ready to offer recommendations and assist with inquiries, enhancing the overall customer experience.</p>
+            <p><strong>Location:</strong> Find us in Victoria, Australia. We can't wait to welcome you to our store!</p>
+        </section>
+
+        <aside class="sidebar">
+            <h3>Store Location</h3>
+            <p>123 Book Street, Victoria, Australia</p>
+            <h3>Contact Details</h3>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: info@rainbowbooks.com</p>
+        </aside>
+    </div>
+
+    <section id="shop" class="main-content">
+        <h2>Shop</h2>
+        <p>Explore our wide range of categories:</p>
+        <ul>
+            <li>Fiction</li>
+            <li>Non-Fiction</li>
+            <li>Children's Books</li>
+            <li>Academic Texts</li>
+            <li>Bestsellers</li>
+            <li>New Arrivals</li>
+        </ul>
+        <p>Enjoy special offers and discounts. Pre-order options available for upcoming releases.</p>
+    </section>
+
+    <section id="events" class="main-content">
+        <h2>Events</h2>
+        <p>Join us for our upcoming events:</p>
+        <ul>
+            <li>Book Signings</li>
+            <li>Reading Sessions</li>
+            <li>Literary Workshops</li>
+        </ul>
+        <p>Register for events and check out recaps and photos from past events.</p>
+    </section>
+
+    <section id="community" class="main-content">
+        <h2>Community</h2>
+        <p>Get involved with our community initiatives:</p>
+        <ul>
+            <li>Book Clubs and Reading Groups</li>
+            <li>Partnerships with Local Authors and Schools</li>
+            <li>Community Engagement and Outreach Programs</li>
+        </ul>
+    </section>
+
+    <section id="blog" class="main-content">
+        <h2>Blog</h2>
+        <p>Stay updated with our latest posts:</p>
+        <ul>
+            <li>Book Reviews and Recommendations</li>
+            <li>Author Interviews and Guest Posts</li>
+            <li>Industry News and Updates</li>
+        </ul>
+    </section>
+
+    <section id="customer-service" class="main-content">
+        <h2>Customer Service</h2>
+        <p>We're here to help:</p>
+        <ul>
+            <li>FAQ</li>
+            <li>Shipping and Return Policies</li>
+            <li>Contact Form and Live Chat Support</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="main-content">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you:</p>
+        <p><strong>Store Location:</strong> 123 Book Street, Victoria, Australia</p>
+        <p><strong>Contact Information:</strong></p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: info@rainbowbooks.com</p>
+        <p>Follow us on social media for the latest updates:</p>
+        <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+        </ul>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Rainbow Books. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
